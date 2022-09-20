@@ -9,11 +9,20 @@ body{
 .real-body{
     margin: 120px;
     padding: 30px;
-    background-color: white;
+    background-color: rgb(250, 206, 102);
 }
 
 .logo{
     height: 100px;
     width: auto;
     margin: 0px;
+}
+img{
+    height: 350px;
+    width: auto;
+}
+.header{
+    text-align: center;
+    color:#064635;
+    font-weight: 1000;
 }
