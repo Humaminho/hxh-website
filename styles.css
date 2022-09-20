@@ -4,25 +4,60 @@ body{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
     font-weight:lighter;
+    background:url(images/background1.jpeg);
+    background-size: contain;
 
 }
 .real-body{
     margin: 120px;
     padding: 30px;
     background-color: rgb(250, 206, 102);
+    
 }
 
 .logo{
     height: 100px;
     width: auto;
     margin: 0px;
+    display:inline-flex;
+    margin-left: 220px;
+    
 }
 img{
-    height: 350px;
+    height: 325px;
     width: auto;
+    border:#064635;
+    border-radius: 10px;
 }
-.header{
-    text-align: center;
+#header{
     color:#064635;
     font-weight: 1000;
+    display:inline-flex;
+
+}
+p {
+    background-color:#064635;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+.flex-box{
+    
+    display:flex;
+}
+h4{
+    background-color: #064635;
+    text-align:center;
+    color: white;
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
 }
