@@ -15,13 +15,28 @@ body{
     
 }
 
+.top-box{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
 .logo{
     height: 100px;
     width: auto;
-    margin: 0px;
-    display:inline-flex;
-    margin-left: 220px;
+    flex: 1;
+    align-self: flex-end;
+   
     
+}
+.header{
+    color:#064635;
+    font-weight: 1000;
+    flex: 20;
+
+
 }
 img{
     height: 325px;
@@ -29,12 +44,7 @@ img{
     border:#064635;
     border-radius: 10px;
 }
-#header{
-    color:#064635;
-    font-weight: 1000;
-    display:inline-flex;
 
-}
 p {
     background-color:#064635;
     margin: 20px;
