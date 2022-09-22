@@ -12,6 +12,7 @@ body{
     margin: 120px;
     padding: 30px;
     background-color: rgb(250, 206, 102);
+    border-radius: 5px;
     
 }
 
@@ -54,8 +55,6 @@ p {
     color: rgb(255, 255, 255);
 }
 
-
-
 .flex-box{
     
     display:flex;
@@ -71,3 +70,21 @@ h4{
     padding-top: 8px;
     padding-bottom: 8px;
 }
+
+.link {
+    align-self: center;
+    background-color:#f77b93;
+    height: 50px;
+    font-weight: 1000;
+    font-size: 25px;
+    border-radius: 10px;
+}
+.box1 {
+    display: flex;
+    flex-flow:column 
+}
+.box2 {
+    display: flex;
+    flex-flow: column
+}
+
