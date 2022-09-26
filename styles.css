@@ -5,7 +5,8 @@ body{
     font-size: 20px;
     font-weight:lighter;
     background:url(images/background1.jpeg);
-    background-size: contain;
+    background-size: cover;
+    background-attachment: fixed;
 
 }
 .real-body{
@@ -26,7 +27,7 @@ body{
 }
 
 .logo{
-    height: 100px;
+    height: 80px;
     width: auto;
 
 
@@ -48,7 +49,6 @@ img{
 
 p {
     background-color:#064635;
-    margin: 20px;
     margin-top: 0px;
     border-radius: 3px;
     padding: 20px;
@@ -58,31 +58,34 @@ p {
 .flex-box{
     
     display:flex;
+    gap: 40px;
 }
 h4{
     background-color: #064635;
     text-align:center;
     color: white;
-    margin-top: 10px;
+    margin-top: 0px;
     margin-left: 50px;
     margin-right: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-top: 8px;
     padding-bottom: 8px;
 }
 
 .link {
     align-self: center;
-    background-color:#f77b93;
-    height: 50px;
-    font-weight: 1000;
-    font-size: 25px;
-    border-radius: 10px;
+    background-color:#064635;
+    height: 60px;
+    width: 250px;
+    border-radius: 5px;
+    
    
 }
 .box1 {
     display: flex;
-    flex-flow:column 
+    flex-flow:column;
+    gap: 20px;
+    
 }
 .box2 {
     display: flex;
@@ -91,4 +94,10 @@ h4{
 
 a{
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 25px;
+}
+a:hover {
+    color: rgb(255, 220, 80);
 }
