@@ -13,29 +13,29 @@ body{
     padding: 30px;
     background-color: rgb(250, 206, 102);
     border-radius: 5px;
+    display:flex;
+    flex-flow:column
     
 }
 
 .top-box{
     display: flex;
-    flex-flow: row wrap;
     align-items: center;
-    justify-content: center;
-    flex: 1;
+    justify-content: space-between;
+
 }
 
 .logo{
     height: 100px;
     width: auto;
-    flex: 1;
-    align-self: flex-end;
+
+
    
     
 }
 .header{
     color:#064635;
     font-weight: 1000;
-    flex: 20;
 
 
 }
@@ -78,6 +78,7 @@ h4{
     font-weight: 1000;
     font-size: 25px;
     border-radius: 10px;
+   
 }
 .box1 {
     display: flex;
@@ -88,3 +89,6 @@ h4{
     flex-flow: column
 }
 
+a{
+    text-decoration: none;
+}
